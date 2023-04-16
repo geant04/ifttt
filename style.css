@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C9F2FB;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FCEBDF;
+    padding: 2em;
+    margin: 2em;
+}
+
+.description{
+    text-align: center;
+    margin: auto;
+}
+.scrolling{
+    margin: auto;
+}
+
+.banner{
+    background-color: #99D4FF;
+    padding: .3em;
+    font-weight: 1;
+    font-size: 35px;
+}
+
+.stuff{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.link{
+    padding:.7em;
+    background-color: #99D4FF;
+    text-decoration: none;
+    color: #0060B6;
+}
