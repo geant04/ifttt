@@ -7,7 +7,10 @@ body{
 .center{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: #afd8ff;
+    border-radius: 2%;
     padding: 2em;
     margin: 2em;
 }
@@ -19,8 +22,6 @@ body{
     z-index: 2;
     margin-left: 5%;
     margin-right: 5%;
-    justify-content: center;
-    align-items: center;
 }
 .scrolling{
     margin: auto;
@@ -29,10 +30,12 @@ body{
 #banner{
     margin: auto;
     font-size: 50px;
-    border: 1px solid ;
     padding: 10px;
     position: relative;
     background-color: white;
+
+    position: relative;
+    box-shadow: 0px 6px 20px 0px rgb(21, 86, 100);
 }
 
 .stuff{
@@ -43,6 +46,13 @@ body{
     width: 27vw;
     background-color: rgba(112, 207, 255, 0.791);
     border-radius: 2%;
+
+    position: relative;
+    box-shadow: 0px 6px 20px 0px rgb(21, 86, 100);
+}
+
+.scrolling{
+    margin: auto;
 
     position: relative;
     box-shadow: 0px 6px 20px 0px rgb(21, 86, 100);
